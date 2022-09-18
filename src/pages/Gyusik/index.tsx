@@ -1,8 +1,11 @@
 import React from "react"
 import styled from "styled-components"
+import Chapter1 from "./강의1"
+import Chapter2 from "./강의2"
 
 const SPage = styled.div`
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	height: ${() => window.innerHeight}px;
 	text-align: center;
@@ -65,6 +68,8 @@ export default function Gyusik() {
 					<SButton2 onClick={handleClick2}>취소</SButton2>
 				</SButtonWrapper>
 			</SContents>
+			<Chapter1 />
+			<Chapter2 />
 		</SPage>
 	)
 }
