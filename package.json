@@ -1,0 +1,96 @@
+{
+  "name": "react_with_ts_study",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+      "@testing-library/dom": "^8.17.1",
+      "@testing-library/jest-dom": "latest",
+      "@testing-library/react": "latest",
+      "@testing-library/user-event": "^14.4.3",
+      "axios": "latest",
+      "lodash": "^4.17.21",
+      "react": "latest",
+      "react-dom": "latest",
+      "react-router": "latest",
+      "react-router-dom": "latest",
+      "react-scripts": "^5.0.1",
+      "react-scroll": "latest",
+      "react-table": "latest",
+      "react-uuid": "^1.0.3",
+      "recoil": "latest",
+      "typescript": "latest",
+      "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+      "@babel/cli": "^7.18.10",
+      "@babel/core": "^7.19.0",
+      "@babel/plugin-syntax-flow": "^7.14.5",
+      "@babel/plugin-transform-react-jsx": "^7.14.9",
+      "@babel/preset-react": "latest",
+      "@babel/runtime": "^7.19.0",
+      "@types/cors": "latest",
+      "@types/d3": "latest",
+      "@types/jest": "latest",
+      "@types/lodash": "latest",
+      "@types/node": "^18.7.15",
+      "@types/react": "latest",
+      "@types/react-dom": "latest",
+      "@types/react-router": "latest",
+      "@types/react-router-dom": "latest",
+      "@types/react-scroll": "latest",
+      "@types/styled-components": "latest",
+      "@typescript-eslint/eslint-plugin": "^5.13.0",
+      "@typescript-eslint/parser": "^5.0.0",
+      "babel-jest": "latest",
+      "babel-plugin-module-resolver": "latest",
+      "copy-webpack-plugin": "latest",
+      "css-loader": "latest",
+      "eslint": "latest",
+      "eslint-config-airbnb-typescript": "^17.0.0",
+      "eslint-config-prettier": "latest",
+      "eslint-import-resolver-babel-module": "latest",
+      "eslint-plugin-better-styled-components": "latest",
+      "eslint-plugin-import": "latest",
+      "eslint-plugin-prettier": "latest",
+      "eslint-plugin-react": "latest",
+      "eslint-config-airbnb": "19.0.4",
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "eslint-plugin-react-hooks": "^4.3.0",
+      "file-loader": "latest",
+      "html-webpack-plugin": "^5.5.0",
+      "jest": "latest",
+      "prettier": "latest",
+      "react-is": "latest",
+      "style-loader": "latest",
+      "styled-components": "latest",
+      "styled-reset": "latest",
+      "ts-loader": "latest",
+      "webpack": "^5.74.0",
+      "webpack-cli": "^4.10.0",
+      "webpack-dev-server": "^4.10.1"
+  },
+  "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+      "extends": [
+          "react-app",
+          "react-app/jest"
+      ]
+  },
+  "browserslist": {
+      "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+      ],
+      "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+      ]
+  }
+}
